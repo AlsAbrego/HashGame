@@ -1,0 +1,27 @@
+.area{
+    width:80px;
+    height:65px;
+    border:2px solid #000;
+    float: left;
+    text-align: center;
+    padding-top:15px;
+}
+.placar{
+    width:252px;
+    height:100px;
+}
+
+.winner{
+    width:250px;
+    height:40px;
+    text-align: center;
+    color: #002966;
+    font-family: verdana;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top:100px;
+}
+#button{
+    margin-top:5px;
+    margin-button:5px;
+}
