@@ -1,9 +1,9 @@
 var player = 'o';
 function atualizarPlacar(){
     if(player == 'o'){
-        $('.placar img').attr('src', 'o.png')
+        $('.placar img').attr('src', 'https://i.postimg.cc/62MyN6Rt/o.png')
     } else{
-        $('.placar img').attr('src', 'x.png')
+        $('.placar img').attr('src', 'https://i.postimg.cc/7GHfcJ5K/x.png')
     }
 }
 
