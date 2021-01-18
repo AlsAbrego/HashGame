@@ -1,9 +1,11 @@
 var player = 'o';
+var srcImageO = 'https://i.postimg.cc/62MyN6Rt/o.png'
+var srcImageX ='https://i.postimg.cc/7GHfcJ5K/x.png'
 function atualizarPlacar(){
     if(player == 'o'){
-        $('.placar img').attr('src', 'https://i.postimg.cc/62MyN6Rt/o.png')
+        $('.placar img').attr('src', srcImageO)
     } else{
-        $('.placar img').attr('src', 'https://i.postimg.cc/7GHfcJ5K/x.png')
+        $('.placar img').attr('src', srcImageX)
     }
 }
 
@@ -90,11 +92,11 @@ function main(){
     $('.area').on('click', function(){
         if($(this).find('img').length == 0){
             if(player == 'o'){
-                $(this).html('<img  src="o.png" border="0" height="50"/>');
+                $(this).html('<img  src='+ srcImageO +' border="0" height="50"/>');
                 $(this).attr('used-square', 'o');
                 player = 'x';
             }else{
-                $(this).html('<img  src="x.png" border="0" height="50"/>');
+                $(this).html('<img  src=' + srcImageX +' border="0" height="50"/>');
                 $(this).attr('used-square', 'x');
                 player = 'o';
             }
